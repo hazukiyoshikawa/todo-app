@@ -1,7 +1,7 @@
 tasks = []
 
 while True:
-    print("\n1:追加 2:一覧 3:終了")
+    print("\n1:追加 2:一覧 3:削除 4:終了")
     choice = input("選択してください： ")
 
     if choice == "1":
@@ -12,8 +12,17 @@ while True:
         print("=== タスク一覧 ===")
         for i , t in enumerate(tasks):
             print(f"{i}: {t}")
-    
+
     elif choice == "3":
+        print("=== タスク一覧 ===")
+        for i , t in enumerate(tasks):
+            print(f"{i}: {t}")
+
+        num = int(input("削除する番号を入力してください： "))
+        tasks.pop(num)
+        print("削除しました")
+    
+    elif choice == "4":
         print("終了します")
         break
     
