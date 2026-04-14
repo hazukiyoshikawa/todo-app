@@ -20,9 +20,9 @@
 
 ## 実行方法
 1. リポジトリをクローン
-[GitHub リポジトリはこちら](https://github.com/yoshikawahazuki/todo-app.git)
+[GitHub リポジトリはこちら](https://github.com/hazukiyoshikawa/todo-app.git)
 ```bash
-git clone https://github.com/yoshikawahazuki/todo-app.git
+git clone https://github.com/hazukiyoshikawa/todo-app.git
 cd todo-app
 ```
 2. 仮想環境を作成して有効化
